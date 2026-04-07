@@ -75,9 +75,7 @@ export default function App() {
         </div>
       </header>
 
-      {}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-10">
-        {}
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold text-[#e6edf3] mb-3">
             GitHub Profile Analyzer
@@ -90,14 +88,12 @@ export default function App() {
           </div>
         </div>
 
-        {}
         {status === 'error' && (
           <div className="bg-[#21262d] border border-[#f85149] rounded-xl p-4 text-[#f85149] text-sm text-center mb-8">
             {error}
           </div>
         )}
 
-        {}
         {status === 'success' && user && (
           <div className="flex flex-col gap-6">
             <ProfileCard user={user} />
@@ -109,7 +105,6 @@ export default function App() {
           </div>
         )}
 
-        {}
         {status === 'idle' && (
           <div className="text-center text-[#6e7681] text-sm mt-4">
             Try{' '}
